@@ -1,0 +1,37 @@
+{
+  "name": "Helios SMP",
+  "version": "1.0.0",
+  "description": "Servidor Helios SMP con NeoForge",
+  "servers": [
+    {
+      "id": "helios-smp",
+      "name": "Helios SMP",
+      "icon": "https://raw.githubusercontent.com/HeliosSmp/helios-smp-distro/main/servers/Helios%20SMP-1.21.1/icon.png",
+      "address": "localhost",
+      "port": 25565,
+      "version": "1.21.1",
+      "type": "NEOFORGE",
+      "subVersion": "21.1.77",
+      "discord": {
+        "invite": "",
+        "text": ""
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "servidor",
+          "name": "Servidor y Mods",
+          "type": "mods",
+          "artifact": {
+            "size": 0,
+            "MD5": "0",
+            "url": "https://limewire.com/d/cfDGZ#XL2qbX02oY"
+          }
+        }
+      ]
+    }
+  ],
+  "forgeVersion": "21.1.77",
+  "news": []
+}
